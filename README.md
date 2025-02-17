@@ -1,4 +1,4 @@
-## About
+## Overview
 I developed this bot as a personal project. It searches for the latest post containing giveaway-related keywords, saves its ID to `processed_posts.txt` for tracking (only for the first post in each run), and then uses the post's timestamp to search in descending order.
 
 On future runs, it will continue searching in descending order until it finds the last processed post ID from `processed_posts.txt`. However, during the first run, it will continue until manually stopped.
